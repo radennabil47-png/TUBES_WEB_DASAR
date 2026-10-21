@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Citymall - Super App Indonesia</title>
+    <!-- Menghubungkan ke file CSS terpisah -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigasi -->
+    <header>
+        <!-- Barisan paling atas: Logo, Bilah Pencarian, dan Profil -->
+        <div class="top-bar">
+            <div class="logo">CityMall</div>
+            <input type="text" class="search-input" placeholder="Cari barang, postingan teman, atau hotel...">
+            <div class="user-profile">Profil </div>
+        </div>
+        <!-- Menu navigasi utama untuk berpindah fitur/modul -->
+        <nav class="main-nav">
+            <button class="nav-btn active"> Belanja Di (CityMall)</button>
+            <button class="nav-btn"> Sosial (RuangPublik)</button>
+            <button class="nav-btn"> Travel (JelajahCity)</button>
+        </nav>
+    </header>
+
+    <!-- Konten Utama -->
+    <main class="container">
+        
+        <!-- Baris Atas: Belanja & Sosial -->
+        <div class="grid-2">
+            
+            <!-- Modul Belanja (E-Commerce) -->
+            <section class="card">
+                <h2> CityMall (Belanja Online)</h2>
+                
+                <div class="product-list">
+                    <div class="product-card">
+                        <div class="photo-placeholder">
+                            <img src="iphone.png">
+                        </div>
+                        
+                        <div class="product-info">
+                            <h4>Iphone 17 promax</h4>
+                            <p class="price">Rp 28,000.000</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="photo-placeholder"> 
+                            <img src="lois.png">
+                        </div>
+                        <div class="product-info">
+                            <h4>Tas Lois Voution</h4>
+                            <p class="price">Rp 20,00.000</p>
+                        </div>
+                    </div>
+                </div>
+            <!-- modul utama untuk belanja -->
+                <button class="btn-primary">+ Tambah ke Keranjang</button>
+            </section>
+
+            <!-- Modul Sosial (Media Sosial) -->
+           
+            <section class="card">
+            <h2>Ruang Publik (Media Sosial)</h2>
+
+            <!-- Postingan 1 (Alexander) -->
+            <div class="post-card">
+                <div class="post-header">
+                <strong>Nabil Salman</strong>
+                <span class="post-time">• 2 jam yang lalu</span>
+            </div>
+            <p class="post-text">"Lagi santai menikmati liburan di pantai Bali!"</p>
+            <div class="photo-placeholder large">
+            <img src="santai.png">
+            </div>
+            <div class="post-actions">
+            <button class="btn-action">Suka</button>
+            <button class="btn-action">Komentar</button>
+            <button class="btn-action">Bagikan</button>
+            </div>
+        </div>
+
+        <!-- Postingan 2 -->
+        <div class="post-card">
+            <div class="post-header">
+            <strong>Jimy Supriatna</strong>
+            <span class="post-time">• 4 jam yang lalu</span>
+            </div>
+            <p class="post-text">"Segelas Kopi Untuk Satu Kekalahan."</p>
+            <div class="photo-placeholder large">
+            <img src="kopi.jpg">
+            </div>
+            <div class="post-actions">
+            <button class="btn-action">Suka</button>
+            <button class="btn-action">Komentar</button>
+            <button class="btn-action">Bagikan</button>
+            </div>
+        </div>
+
+        <!-- Postingan 3 -->
+        <div class="post-card">
+            <div class="post-header">
+            <strong>Salma Agisna</strong>
+            <span class="post-time">• 6 jam yang lalu</span>
+            </div>
+            <p class="post-text">"Liburan di Kota Bandung?"</p>
+            <div class="photo-placeholder large">
+            <img src="bdg.png">
+            </div>
+            <div class="post-actions">
+            <button class="btn-action">Suka</button>
+            <button class="btn-action">Komentar</button>
+            <button class="btn-action">Bagikan</button>
+            </div>
+        </div>
+
+        </section>
+          
+        </div>
+
+        <!-- Baris Bawah: Booking Travel & Hotel -->
+        <section class="card full-width">
+            <h2> JelajahCity (Pemesanan Hotel & Tiket)</h2>
+            
+            <form class="hotel-form">
+                <div class="form-group">
+                    <label>Tujuan / Kota:</label>
+                    <input type="text" value="Bali, Indonesia">
+                </div>
+
+                <div class="form-group">
+                    <label>Tanggal Menginap:</label>
+                    <input type="text" value="20 - 22 Oktober 2026">
+                </div>
+
+                <div class="form-group">
+                    <label>Jumlah Tamu:</label>
+                    <input type="text" value="2 Orang, 1 Kamar">
+                </div>
+            </form>
+
+            <button class="btn-primary search-btn"> Cari Hotel Murah</button>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <a href="#">Pusat Bantuan</a> | 
+            <a href="#">Syarat & Ketentuan</a> | 
+            <a href="#">Kebijakan Privasi</a>
+            <!-- Teks Hak Cipta -->
+            <p class="copyright">© 2026 City
+                Mall Platform. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
